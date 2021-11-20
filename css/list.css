@@ -1,0 +1,152 @@
+.sk {
+  position: absolute;
+  top: 40px;
+  left: 185px;
+  width: 56px;
+  height: 32px;
+  padding: 3px 0;
+  padding-left: 14px;
+  border-left: 1px solid #b1191a;
+}
+.sk_list li {
+  float: left;
+  line-height: 47px;
+  margin-right: 57px;
+}
+.sk_list li a {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sk_con ul li {
+  float: left;
+  font-size: 14px;
+  height: 47px;
+  margin-right: 47px;
+  line-height: 47px;
+  color: #666666;
+}
+.sk_con ul li a {
+  color: #666666;
+}
+.sk_con ul li a:hover {
+  color: #c81623;
+}
+.sk_con ul li:last-child a:after {
+  content: "";
+  font-family: "icomoon";
+}
+.sk_hd {
+  height: 120px;
+  background: url(../upload/bg_03.png) no-repeat center center;
+}
+.sk_bd {
+  margin-top: 25px;
+  margin-bottom: 282px;
+}
+
+.sk_bd ul li {
+  position: relative;
+  float: left;
+  margin-right: 13px;
+  height: 460px;
+  width: 290px;
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+.sk_bd ul li h5 {
+  font-size: 14px;
+  color: #666666;
+  font-family: "宋体";
+  font-weight: 400;
+  padding: 0 13px;
+}
+.sk_bd ul li .img {
+  height: 292px;
+  background: url(../images/图层7.png) no-repeat center center;
+}
+
+.sk_bd ul li p span {
+  font-size: 14px;
+  color: #a4a4a4;
+  text-decoration: line-through;
+}
+.sk_bd ul li p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #e60012;
+  text-decoration: none;
+  padding: 0 13px;
+}
+.sk_bd ul li a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 292px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "宋体";
+  background-color: #b1191a;
+}
+.sk_bd ul li:hover {
+  /* border: 1px solid #b1191a; */
+  box-shadow: 0px 0px 0px 1px #b1191a;
+}
+.sk_bd ul li:nth-child(4n) {
+  margin: 0;
+}
+.sk_bd:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.xiaoliang {
+  vertical-align: middle;
+
+  font-family: "宋体";
+  padding: 0 13px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 27px;
+}
+.tiaotiao {
+  position: relative;
+  margin: 0 10px;
+  margin-top: 7px;
+  vertical-align: middle;
+  width: 132px;
+  height: 12px;
+  border: 1px solid #ed282e;
+
+  border-radius: 12px;
+}
+.tiao_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  background-color: #ed282e;
+  border-radius: 12px 0 0 12px;
+  height: 11px;
+}
+.xiaoliang span {
+  font-size: 16px;
+
+  color: #e12228;
+}
+.xiaoliang > div {
+  float: left;
+}
+.xiaoliang::after {
+  content: "";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+}
